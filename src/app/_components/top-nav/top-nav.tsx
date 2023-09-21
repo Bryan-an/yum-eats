@@ -11,7 +11,7 @@ import WalletIcon from '@/icons/wallet';
 import XIcon from '@/icons/x';
 import { useState } from 'react';
 
-const TopNavComponent = () => {
+export const TopNavComponent = () => {
   const [sideNav, setSideNav] = useState<boolean>(false);
 
   return (
@@ -94,5 +94,3 @@ const TopNavComponent = () => {
     </header>
   );
 };
-
-export default TopNavComponent;

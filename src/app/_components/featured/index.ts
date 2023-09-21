@@ -1,0 +1,1 @@
+export { FeaturedComponent } from './featured';

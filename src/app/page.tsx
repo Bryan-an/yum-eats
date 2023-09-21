@@ -1,10 +1,11 @@
-import TopNavComponent from '@/components/app/top-nav';
+import { FeaturedComponent } from './_components/featured';
+import { TopNavComponent } from './_components/top-nav';
 
 export default function HomePage() {
   return (
     <>
       <TopNavComponent />
-      <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+      <FeaturedComponent />
     </>
   );
 }
