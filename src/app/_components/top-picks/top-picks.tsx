@@ -10,7 +10,7 @@ export const TopPicksComponent = () => {
       <h1 className="text-orange-500 font-bold text-2xl text-center py-2">
         Top Picks
       </h1>
-      <div className="hidden lg:flex max-w-[1520px] m-auto py-2 px-2 mt-4">
+      <div className="hidden lg:flex max-w-[1520px] m-auto py-2 px-2 mt-6">
         <Splide options={{ perPage: 4, gap: '0.5rem' }}>
           {topPicks.map((item) => (
             <SplideSlide key={item.id}>
