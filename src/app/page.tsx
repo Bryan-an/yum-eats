@@ -1,3 +1,4 @@
+import { CategoriesComponent } from './_components/categories';
 import { DeliveryComponent } from './_components/delivery';
 import { FeaturedComponent } from './_components/featured';
 import { MealComponent } from './_components/meal';
@@ -12,6 +13,7 @@ export default function HomePage() {
       <DeliveryComponent />
       <TopPicksComponent />
       <MealComponent />
+      <CategoriesComponent />
     </>
   );
 }
